@@ -66,6 +66,8 @@ Ser at de stemmer høvelig godt overrens med virkligheten
 
 ## Måle høyden på tuntreet
 
+På dag en skulle vi annslå høyden på tuntreet. Visse personer på gruppa hevdet at det kunne være opp mot 50 m høyt. Mens andre var mer konservative og gjettet lavere.
+
 ### Totalstasjon
 
 #### Teori
