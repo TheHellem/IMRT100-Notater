@@ -4,6 +4,21 @@
 
 ## Innholdsfortegnelse
 
+- [Tegne et kart](#tegne-et-kart)
+- [Georeferere karttegningen inn i QDIS](#georeferere-karttegningen-inn-i-qdis)
+  - [Resultater](#resultater)
+- [Måle høyden på tuntreet](#måle-høyden-på-tuntreet)
+  - [Totalstasjon](#totalstasjon)
+    - [Teori](#teori)
+  - [CloudCompare](#cloudcompare)
+    - [Fremgangsmåte](#fremgangsmåte)
+    - [Måle høyde med histogram](#måle-høyde-med-histogram)
+    - [Måle høyden mellom to punkter](#måle-høyden-mellom-to-punkter)
+    - [Usikkerhetsmomenter](#usikkerhetsmomenter)
+    - [Tanker](#tanker)
+- [3D-scanning](#3d-scanning)
+  - [Oppsett i Blender](#oppsett-i-blender)
+  - [Klasserom scan](#klasserom-scan)
 
 
 
