@@ -77,6 +77,8 @@ Vi testet formelen ved å måle tavla i landmålerommet.
 | $\theta_1$ | $11,58\ [gon]$ |
 | $\theta_2$ | $8.97\ [gon]$  |
 | $x$        | $3,57\ [m]$    |
+
+
 Ved å bruke formelen over, så fant gruppen at tavla var $1.15\ m$ høy. Vi kontrollerte dette med å bruke en tommestokk for å sjekke fasiten. Tavla ble målt til $1,2\ m$ som gir oss et avvik på 5 cm. 
 
 For å sjekke at det ikke var noe uhumskheter i matten kontrollerte vi med å måle høyden på Odin i gruppa.....
