@@ -221,3 +221,5 @@ Etter dette regnet vi ut gjennomsnittet med python. (se .pynb fil under notebook
 Burde legge inn et "fasit" punkt i denne kanskje... Er vel egentlig ikke så nøye.
 
 Ut ifra dette plottet tviler jeg sterkt på at trygve stod stille. Trygve er en feilkilde?
+
+Burde lage en tabell som viser gjennomsnittet på de forskjellige metodene, samt "fasit".
