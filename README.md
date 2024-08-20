@@ -10,6 +10,7 @@
 - [Måle høyden på tuntreet](#måle-høyden-på-tuntreet)
   - [Totalstasjon](#totalstasjon)
     - [Teori](#teori)
+    - [Målingen av treet med totalstasjonen](#målingen-av-treet-med-totalstasjonen)
   - [CloudCompare](#cloudcompare)
     - [Fremgangsmåte](#fremgangsmåte)
     - [Måle høyde med histogram](#måle-høyde-med-histogram)
@@ -113,6 +114,25 @@ En usikkerhet ved å måle treet på denne måten, er at trær ikke nødvendigvi
 
 For å motvirke dette burde vi ta flere målinger, fra flere forskjellige vinkler, for å oppnå best mulig resultat. Samtidig så er alt dette før vi tar blader og greiner med i beregningen, så det er en del usikkerhetsmomenter ute å går her.
 
+## Målingen av treet med totalstasjonen
+
+Vi plasserte totalstasjonen i et område mellom Boksmia og Andedammen som gjorde at vi hadde fri sikt til roten og toppen av trekrona.
+
+Vi fikk følgende verdier når vi var ute og målte treet:
+
+| Mål        | Verd           |
+| ---------- | -------------- |
+| $\theta_1$ | $2.87\ [gon]$ |
+| $\theta_2$ | $15.85\ [gon]$  |
+| $x$        | $113.70\ [m]$    |
+
+Regner ut ved formelen fra teorien
+
+$$113.7*((sin(2.87 * 0.9))+(cos(2.87 *0.9)*tan(15.85 *0.9)))=34.00\ [m]$$
+
+Det var vind ute, som gjorde det krevende å plasere siktet på en spesifik gren.
+
+
 
 ### CloudCompare
 
@@ -197,3 +217,5 @@ Etter dette regnet vi ut gjennomsnittet med python. (se .pynb fil under notebook
 
 ![](Bilder/scatterplot_GNSSpunkt.png)
 
+
+Burde legge inn et "fasit" punkt i denne kanskje... Er vel egentlig ikke så nøye.
