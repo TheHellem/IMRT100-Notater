@@ -17,8 +17,9 @@
     - [Usikkerhetsmomenter](#usikkerhetsmomenter)
     - [Tanker](#tanker)
 - [3D-scanning](#3d-scanning)
-  - [Oppsett i Blender](#oppsett-i-blender)
-  - [Klasserom scan](#klasserom-scan)
+    - [3D-scanning med mobil](#3d-scanning-med-mobil)
+    - [3D-scanning av klasserom](#3d-scanning-av-klasserom)
+    
 
 
 
