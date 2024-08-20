@@ -154,23 +154,22 @@ Utover dette så vil man ikke få målt treet rett ned til bunnen av stammen, pg
 - Tror det mest nøyaktige må være å bruke tre punkter, og vinklene mellom dem.
 - Hvordan vet jeg at Z. cord er meter. Det er jo det... Må ligge i metadata eller noe fra LIDAR målingen.
 
-Starter dagen med å laste ned Blender.
-
 ## 3D-scanning
 
+Starter dagen med å laste ned Blender.
 
 Bruker så [PolyCam](https://poly.cam/) til å skanne en 3D modell av en kaffekopp. 
 
 Logger så inn på polycam på pcn, og laster ned 3D modellen i filformatet GLTF ([Graphics Library Transmission Format](https://en.wikipedia.org/wiki/GlTF)). Selve filen blir faktisk lastet ned som en .glb fil.
 
 Så importerer vi denne inn i blender.
-### Oppsett i Blender
+### 3D-scanning med mobil
 
 Laster opp filen, og enkelt og greit ser litt på den fra ulike vinkler. Rendre og får følgende resultat.
 
 ![](Bilder/kaffekopp.png)
 
-### Klasserom scan
+### 3D-scanning av klasserom
 
 Laster ned en .las fil, og åpner denne i CloudCompare
 
