@@ -19,7 +19,8 @@
 - [3D-scanning](#3d-scanning)
     - [3D-scanning med mobil](#3d-scanning-med-mobil)
     - [3D-scanning av klasserom](#3d-scanning-av-klasserom)
-    
+- [Måle inn punkt med GNSS](#måle-inn-punkt-med-gnss)
+
 
 
 
@@ -183,4 +184,16 @@ Ser fra bildet over, og under att laserscanningen blir forstyrret av at det er p
 
 ![](Bilder/landmalelaboratorium_3d_2.png)
 
+# Måle inn punkt med GNSS
+
+I løpet av dagen måler vi posisjonen til et punkt, både med RTK ([realtids kinematisk måling](https://snl.no/RTK)) og med mobiltelefon.
+
+Vi måler 6 ganger med mobilstasjonen, og tar punker da libellen viser at vi holder stangen rett. Etter dette plasserte vi en telefon på samme punktet i 5 min, og logget GNSS data. 
+
+
+Vi brukte [GNNSLogger appen](https://play.google.com/store/apps/details?id=com.google.android.apps.location.gps.gnsslogger&hl=en_US), men det viste seg og bli trøbbel med å laste opp filene til pc. (==stikk ut i en pause, og prøv på nytt kanskje? Eller bare bruke trygve sitt==). Vi fikk også et .klm datasett fra Trygve fra samme posisjon i tilfelle det skulle bli trøblete med den appen vi brukte som lager filer i NMEA formatet
+
+Etter dette regnet vi ut gjennomsnittet med python. (se .pynb fil under notebook mappen øverst). Lagde også et scatter-plot.
+
+![](Bilder/scatterplot_GNSSpunkt.png)
 
