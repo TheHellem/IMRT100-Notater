@@ -1,6 +1,6 @@
 # Notater for gruppe 2 - IMRT100
 
-*Denne siden er notater tatt for Gruppe 2 i IMRT100 høsten 2024*
+*Denne siden er notater tatt for Gruppe 2 i IMRT100 August 2024*
 
 ## Innholdsfortegnelse
 
@@ -21,11 +21,11 @@
     - [3D-scanning med mobil](#3d-scanning-med-mobil)
     - [3D-scanning av klasserom](#3d-scanning-av-klasserom)
 - [Måle inn punkt med GNSS](#måle-inn-punkt-med-gnss)
+    - [Måle gjennomsnitt etc med python](#måle-gjennomsnitt-etc-med-python)
+    - [Regne ut gjennomsnitt av koordinater i QGIS](#regne-ut-gjennomsnitt-av-koordinater-i-qgis)
 - [Introduksjon til Python](#introduksjon-til-python)
     - [Introduksjon til Jupyter Notebook (forelesing eksempl)](#introduksjon-til-jupyter-notebook-forelesing-eksempler)
     - [Regne gjennomsnitt fra csv filer](#regne-gjennomsnitt-fra-csv-filer)
-
-
 
 
 ## Tegne et kart
@@ -207,7 +207,9 @@ Ser fra bildet over, og under att laserscanningen blir forstyrret av at det er p
 
 ![](Bilder/landmalelaboratorium_3d_2.png)
 
-# Måle inn punkt med GNSS
+## Måle inn punkt med GNSS
+
+### Måle gjennomsnitt etc med python
 
 I løpet av dagen måler vi posisjonen til et punkt, både med RTK ([realtids kinematisk måling](https://snl.no/RTK)) og med mobiltelefon.
 
@@ -226,6 +228,27 @@ Burde legge inn et "fasit" punkt i denne kanskje... Er vel egentlig ikke så nø
 Ut ifra dette plottet tviler jeg sterkt på at trygve stod stille. Trygve er en feilkilde?
 
 Burde lage en tabell som viser gjennomsnittet på de forskjellige metodene, samt "fasit".
+
+
+
+### Regne ut gjennomsnitt av koordinater i QGIS
+
+
+Begynner med å åpne malfiler samt å laste inn .kml datasettene.
+
+[](Bilder/data_lastet_inn_qdis.png)
+
+Her har vi RTK dataen og data fra mobilen. 
+
+Processing Toolbox -> QGIS Algorithms -> Vector analysis tools -> Mean coordinate(s).
+
+[](Bilder/gjennomsnittspunkt_qdis.png)
+
+Under analyseverktøyene for vektorer finner man flere nyttige ting.
+
+Gjennomsnittspunktet ved å måle på denne måten:
+
+10.7753208492857127,59.6658624022619151
 
 
 
