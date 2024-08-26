@@ -341,10 +341,11 @@ Vi skal bygge en GNNS mottaker, og se nærmere på data fra denne.
 
 Vi brukte Arduino IDE'n til å laste ned en av eksempelprogrammene som heter *SerialPassthrough* på mikrokontrolleren. Så satt vi den sammen som illustrert under:
 
-![](20240826_142447.jpg)
+![](Bilder/20240826_142447.jpg)
 
 Etter dette, så tok vi den med ut for å logge data. 
-![](20240826_144751.jpg)
+
+![](Bilder/20240826_144751.jpg)
 
 
 Fra dette fikk vi logfiler. (Ligger i dataset under notebooks)
