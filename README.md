@@ -27,6 +27,7 @@
     - [Introduksjon til Jupyter Notebook (forelesing eksempl)](#introduksjon-til-jupyter-notebook-forelesing-eksempler)
     - [Regne gjennomsnitt fra csv filer](#regne-gjennomsnitt-fra-csv-filer)
 - [Orienteringsløp - Kortest vei](#orienteringsløp---kortest-vei)
+- [Bygge GNSS mottaker (Arduino)](#bygge-gnss-mottaker-arduino)
 
 ## Tegne et kart
 
@@ -323,3 +324,27 @@ Under *Derived* så finner man distansen.
 ![[Pasted image 20240826122149.png]]
 
 Ved avlesing her finner vi at vi har gått 3785 m.
+
+
+## Bygge GNSS mottaker (Arduino)
+
+Vi skal bygge en GNNS mottaker, og se nærmere på data fra denne.
+
+### Utstyr
+- Arduino MKR100
+- Arduino MKR GPS Shield
+- SparkFun OpenLog data logger
+- Minnekort
+- Batteri
+
+### Fremgangsmåte
+
+Vi brukte Arduino IDE'n til å laste ned en av eksempelprogrammene som heter *SerialPassthrough* på mikrokontrolleren. Så satt vi den sammen som illustrert under:
+
+![[20240826_142447.jpg]]
+
+Etter dette, så tok vi den med ut for å logge data. 
+![[20240826_144751.jpg]]
+
+
+Fra dette fikk vi logfiler. (Ligger i dataset under notebooks)
