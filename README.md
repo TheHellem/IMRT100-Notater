@@ -26,7 +26,7 @@
 - [Introduksjon til Python](#introduksjon-til-python)
     - [Introduksjon til Jupyter Notebook (forelesing eksempl)](#introduksjon-til-jupyter-notebook-forelesing-eksempler)
     - [Regne gjennomsnitt fra csv filer](#regne-gjennomsnitt-fra-csv-filer)
-
+- [Orienteringsløp - Kortest vei](#orienteringsløp---kortest-vei)
 
 ## Tegne et kart
 
@@ -309,3 +309,15 @@ radianer og gon.
 84 rows × 2 columns
 
 
+## Orienteringsløp - Kortest vei
+
+
+For å finne avstand fra en `.kml` fil i QGIS, så legger man inn som vanlig.
+
+Etter dette så:
+
+![[Pasted image 20240826122410.png]]
+
+Under *Derived* så finner man distansen.
+
+![[Pasted image 20240826122149.png]]
