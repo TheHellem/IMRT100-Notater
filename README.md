@@ -317,11 +317,11 @@ For å finne avstand fra en `.kml` fil i QGIS, så legger man inn som vanlig.
 
 Etter dette så:
 
-![[Pasted image 20240826122410.png]]
+[](Bilder/idenity_utklipp.png)
 
 Under *Derived* så finner man distansen.
 
-![[Pasted image 20240826122149.png]]
+[](Bilder/avstand_kml_utklipp.png)
 
 Ved avlesing her finner vi at vi har gått 3785 m.
 
@@ -341,10 +341,10 @@ Vi skal bygge en GNNS mottaker, og se nærmere på data fra denne.
 
 Vi brukte Arduino IDE'n til å laste ned en av eksempelprogrammene som heter *SerialPassthrough* på mikrokontrolleren. Så satt vi den sammen som illustrert under:
 
-![[20240826_142447.jpg]]
+[](20240826_142447.jpg)
 
 Etter dette, så tok vi den med ut for å logge data. 
-![[20240826_144751.jpg]]
+[](20240826_144751.jpg)
 
 
 Fra dette fikk vi logfiler. (Ligger i dataset under notebooks)
