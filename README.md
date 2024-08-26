@@ -321,3 +321,5 @@ Etter dette så:
 Under *Derived* så finner man distansen.
 
 ![[Pasted image 20240826122149.png]]
+
+Ved avlesing her finner vi at vi har gått 3785 m.
