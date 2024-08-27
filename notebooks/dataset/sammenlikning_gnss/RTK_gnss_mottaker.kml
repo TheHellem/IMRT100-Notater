@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Points" id="Points">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Easting" type="string"></SimpleField>
+	<SimpleField name="Northing" type="string"></SimpleField>
+	<SimpleField name="Elevation" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Ellipsoidal height" type="string"></SimpleField>
+	<SimpleField name="Origin" type="string"></SimpleField>
+	<SimpleField name="Easting RMS" type="string"></SimpleField>
+	<SimpleField name="Northing RMS" type="string"></SimpleField>
+	<SimpleField name="Elevation RMS" type="string"></SimpleField>
+	<SimpleField name="Lateral RMS" type="string"></SimpleField>
+	<SimpleField name="Antenna height" type="string"></SimpleField>
+	<SimpleField name="Antenna height units" type="string"></SimpleField>
+	<SimpleField name="Solution status" type="string"></SimpleField>
+	<SimpleField name="Averaging start" type="string"></SimpleField>
+	<SimpleField name="Averaging end" type="string"></SimpleField>
+	<SimpleField name="Samples" type="string"></SimpleField>
+	<SimpleField name="GDOP" type="string"></SimpleField>
+	<SimpleField name="Base easting" type="string"></SimpleField>
+	<SimpleField name="Base northing" type="string"></SimpleField>
+	<SimpleField name="Base elevation" type="string"></SimpleField>
+	<SimpleField name="Base longitude" type="string"></SimpleField>
+	<SimpleField name="Base latitude" type="string"></SimpleField>
+	<SimpleField name="Base ellipsoidal height" type="string"></SimpleField>
+	<SimpleField name="Baseline" type="string"></SimpleField>
+	<SimpleField name="Mount point" type="string"></SimpleField>
+	<SimpleField name="CS name" type="string"></SimpleField>
+	<SimpleField name="GPS Satellites" type="string"></SimpleField>
+	<SimpleField name="GLONASS Satellites" type="string"></SimpleField>
+	<SimpleField name="Galileo Satellites" type="string"></SimpleField>
+	<SimpleField name="BeiDou Satellites" type="string"></SimpleField>
+	<SimpleField name="QZSS Satellites" type="string"></SimpleField>
+</Schema>
+<Folder><name>Points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">1</SimpleData>
+		<SimpleData name="Easting">600011.180</SimpleData>
+		<SimpleData name="Northing">6615540.575</SimpleData>
+		<SimpleData name="Elevation">137.236</SimpleData>
+		<SimpleData name="Longitude">10.77530275</SimpleData>
+		<SimpleData name="Latitude">59.66589043</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.236</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:39.2 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:39.2 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.670</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302749,59.665890431,137.2364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">2</SimpleData>
+		<SimpleData name="Easting">600011.179</SimpleData>
+		<SimpleData name="Northing">6615540.593</SimpleData>
+		<SimpleData name="Elevation">137.233</SimpleData>
+		<SimpleData name="Longitude">10.77530274</SimpleData>
+		<SimpleData name="Latitude">59.66589059</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.233</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:45.2 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:45.2 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.675</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302744,59.665890593,137.2328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">3</SimpleData>
+		<SimpleData name="Easting">600011.177</SimpleData>
+		<SimpleData name="Northing">6615540.571</SimpleData>
+		<SimpleData name="Elevation">137.233</SimpleData>
+		<SimpleData name="Longitude">10.77530270</SimpleData>
+		<SimpleData name="Latitude">59.66589040</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.233</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:47.6 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:47.6 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.672</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302699,59.665890399,137.2325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">4</SimpleData>
+		<SimpleData name="Easting">600011.177</SimpleData>
+		<SimpleData name="Northing">6615540.567</SimpleData>
+		<SimpleData name="Elevation">137.239</SimpleData>
+		<SimpleData name="Longitude">10.77530269</SimpleData>
+		<SimpleData name="Latitude">59.66589036</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.239</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:51.6 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:51.6 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.671</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302686,59.665890364,137.2386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">5</SimpleData>
+		<SimpleData name="Easting">600011.191</SimpleData>
+		<SimpleData name="Northing">6615540.560</SimpleData>
+		<SimpleData name="Elevation">137.241</SimpleData>
+		<SimpleData name="Longitude">10.77530294</SimpleData>
+		<SimpleData name="Latitude">59.66589030</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.241</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:53.4 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:53.4 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.656</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302937,59.665890296,137.2407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">6</SimpleData>
+		<SimpleData name="Easting">600011.174</SimpleData>
+		<SimpleData name="Northing">6615540.608</SimpleData>
+		<SimpleData name="Elevation">137.244</SimpleData>
+		<SimpleData name="Longitude">10.77530266</SimpleData>
+		<SimpleData name="Latitude">59.66589073</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.244</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.010</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:53:55.8 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:53:55.8 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.683</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302657,59.665890732,137.2441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Points">
+		<SimpleData name="Name">7</SimpleData>
+		<SimpleData name="Easting">600011.173</SimpleData>
+		<SimpleData name="Northing">6615540.583</SimpleData>
+		<SimpleData name="Elevation">137.224</SimpleData>
+		<SimpleData name="Longitude">10.77530263</SimpleData>
+		<SimpleData name="Latitude">59.66589051</SimpleData>
+		<SimpleData name="Ellipsoidal height">137.224</SimpleData>
+		<SimpleData name="Origin">Global</SimpleData>
+		<SimpleData name="Easting RMS">0.010</SimpleData>
+		<SimpleData name="Northing RMS">0.010</SimpleData>
+		<SimpleData name="Elevation RMS">0.011</SimpleData>
+		<SimpleData name="Lateral RMS">0.014</SimpleData>
+		<SimpleData name="Antenna height">1.934</SimpleData>
+		<SimpleData name="Antenna height units">m</SimpleData>
+		<SimpleData name="Solution status">FIX</SimpleData>
+		<SimpleData name="Averaging start">2024-08-20 12:54:21.6 UTC+02:00</SimpleData>
+		<SimpleData name="Averaging end">2024-08-20 12:54:21.6 UTC+02:00</SimpleData>
+		<SimpleData name="Samples">1</SimpleData>
+		<SimpleData name="GDOP">1.4</SimpleData>
+		<SimpleData name="Base easting">600147.312</SimpleData>
+		<SimpleData name="Base northing">6615509.811</SimpleData>
+		<SimpleData name="Base elevation">143.387</SimpleData>
+		<SimpleData name="Base longitude">10.77770325</SimpleData>
+		<SimpleData name="Base latitude">59.66558161</SimpleData>
+		<SimpleData name="Base ellipsoidal height">143.387</SimpleData>
+		<SimpleData name="Baseline">139.679</SimpleData>
+		<SimpleData name="Mount point">CPOSRTCM32</SimpleData>
+		<SimpleData name="CS name">ETRS89 UTM Nord fuseau 32</SimpleData>
+		<SimpleData name="GPS Satellites">9</SimpleData>
+		<SimpleData name="GLONASS Satellites">6</SimpleData>
+		<SimpleData name="Galileo Satellites">5</SimpleData>
+		<SimpleData name="BeiDou Satellites">0</SimpleData>
+		<SimpleData name="QZSS Satellites">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.775302627,59.665890507,137.2241</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
