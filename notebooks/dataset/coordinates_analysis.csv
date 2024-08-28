@@ -1,0 +1,4 @@
+Metode,Antall punkter,Gjennomsnitt [m],Standardavvik [m]
+RTK,7,"[600011.179, 6615540.58]","[0.006, 0.015]"
+Mobiltelefon,273,"[600011.88, 6615540.66]","[0.16, 0.13]"
+Arduino-enhet,194,"[600011.0, 6615540.7]","[0.4, 0.6]"

@@ -43,8 +43,8 @@ def plot_multiple_coordinates(*coordinate_sets, labels=None, colors=None, marker
     
     # Adding title and labels
     plt.title('Spredningsdiagram av de ulike GNSS mottakerne')
-    plt.xlabel('Ø[M]')
-    plt.ylabel('N[M]')
+    plt.xlabel('Ø [m]')
+    plt.ylabel('N [m]')
     
     # Optional: Add grid
     plt.grid(True)
