@@ -21,7 +21,7 @@ def plot_multiple_coordinates(*coordinate_sets, labels=None, colors=None, marker
         colors = ['black', 'red', 'blue', 'green', 'purple', 'orange']
     
     if markers is None:
-        markers = ['.', '.', '^', 's', 'D', 'v']
+        markers = ['.', '.', '.', 's', 'D', 'v']
     
     plt.figure(figsize=(10, 6))
     

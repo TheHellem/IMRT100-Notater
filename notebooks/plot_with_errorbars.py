@@ -11,8 +11,8 @@ def plot_coordinates_with_error_bars(df):
     plt.figure(figsize=(10, 6))
     
     # Define colors and markers for each method
-    colors = ['black', 'red', 'blue']
-    markers = ['o', '^', 's']
+    colors = ['red', 'grey', 'orange']
+    markers = ['.', '.', '.']
     
     for i, row in df.iterrows():
         method = row['Metode']
@@ -28,7 +28,7 @@ def plot_coordinates_with_error_bars(df):
         )
     
     # Setting the title and labels
-    plt.title('Gjennomsnittskoordinater for de ulike metodene')
+    plt.title('Gjennomsnittskoordinater med standardavvik')
     plt.xlabel('Ø [m]')
     plt.ylabel('N [m]')
     
